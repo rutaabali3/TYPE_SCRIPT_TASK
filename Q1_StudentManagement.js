@@ -11,3 +11,6 @@ console.table(students);
 const highestCgpaStudent = students.reduce((highest, current) => current.cgpa > highest.cgpa ? current : highest);
 console.log("Student With Highest CGPA:");
 console.table([highestCgpaStudent]);
+
+
+
